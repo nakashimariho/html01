@@ -927,3 +927,82 @@ div {
 .footer-copylight {
     font-size: 12px;
 }
+input[type="checkbox"] {
+    position: absolute;
+    right: -50vw;
+}
+
+@media (max-width: 1080px) {
+.page-top {
+    padding-top: 60px;
+}
+.site-header {
+    background-color: #fff;
+    z-index: 10;
+}
+.header-list-hamburger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 100;
+}
+.header-list-hamburger-line {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    
+}
+.header-list-hamburger-line:first-child {
+    top: 0;
+}
+.header-list-hamburger-line:last-child {
+    top: 100%;
+}
+.header-list {
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    display: block;
+    background-color: rgba(0,0,0,0.8);
+    
+}
+.no1-img {
+    top: -168px;
+    right: 0;
+    left: -28px;
+}
+.about-contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about-potepan {
+    width: 100%;
+    flex-direction: column;
+}
+.message-content {
+    flex-direction: column;
+    background-color: #fff;
+    padding: 45px 40px 40px;
+    
+}
+.message-text {
+    order: 2;
+    margin-right: 0;
+    text-align: center;
+}
+.intervew-list {
+    display: block;
+    
+}
+.intervew-list li {
+    width: 100%;
+    padding: 0;
+}
+
+}
